@@ -1,18 +1,32 @@
-body {
-    color: white;
-    background-color: black;
-    /*background-color: #202040 !important*/
-}
-
-.bg-light {
+/*Bootstrap modification*/
+/*NavBar*/
+.navbar{
     background-color: black !important;
+    color: white !important;
 }
 
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+navbar-toggler-icon {
+    color: white !important;
+}
+
+/*CArds*/
 .card {
     background-color: #82216e !important;
 }
 
-
+/* Basic items */
+body {
+    color: white;
+    background-color: black!important;
+}
 
 
 
