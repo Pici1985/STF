@@ -1,13 +1,16 @@
 body {
-    background-color: #202040 !important
+    color: white;
+    background-color: black;
+    /*background-color: #202040 !important*/
 }
 
 .bg-light {
-    background-color: #82216e !important;
+    background-color: black !important;
 }
 
+
 .card {
-    background-color: #82216e !important
+    background-color: #82216e !important;
 }
 
 
