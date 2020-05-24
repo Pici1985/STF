@@ -20,12 +20,14 @@ navbar-toggler-icon {
 /*CArds*/
 .card {
     background-color: #82216e !important;
+    max-width: 50%;
 }
 
 /* Basic items */
 body {
     color: white;
     background-color: black!important;
+    text-align: center;
 }
 
 
