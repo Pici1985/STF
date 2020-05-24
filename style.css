@@ -3,10 +3,13 @@
 
 
 /*NavBar*/
+
 .navbar{
     background-color: black !important;
     color: white !important;
+    justify-content: flex-end;
 }
+
 
 .navbar-brand {
     color: white !important;
@@ -20,11 +23,13 @@ navbar-toggler-icon {
     color: white !important;
 }
 
+.navbar-collapse {
+    flex-grow: 0;
+}
+
 /*CArds*/
 .card {
     background-color: #82216e !important;
-    
-    
 }
 
 
@@ -38,6 +43,7 @@ body {
     margin: 0 200 0 200;
 }
 
+/*Width of cards and containers*/
 @media screen and (max-width: 1000px) {
 body.sm-full {
         margin: 0 0 0 0;
