@@ -20,7 +20,8 @@ navbar-toggler-icon {
 /*CArds*/
 .card {
     background-color: #82216e !important;
-    max-width: 50%;
+    margin: 0 100 0 0; 
+    
 }
 
 /* Basic items */
