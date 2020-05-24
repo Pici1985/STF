@@ -1,4 +1,7 @@
 /*Bootstrap modification*/
+/*Basic*/
+
+
 /*NavBar*/
 .navbar{
     background-color: black !important;
@@ -20,9 +23,11 @@ navbar-toggler-icon {
 /*CArds*/
 .card {
     background-color: #82216e !important;
-    margin: 0 100 0 100; 
+    
     
 }
+
+
 
 /* Basic items */
 body {
@@ -30,7 +35,18 @@ body {
     background-color: black!important;
     text-align: center;
     font-family: 'Chelsea Market', cursive;
+    margin: 0 200 0 200;
 }
+
+@media screen and (max-width: 1000px) {
+body.sm-full {
+        margin: 0 0 0 0;
+    }
+}
+
+
+
+
 
 
 
