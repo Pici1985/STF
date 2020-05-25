@@ -43,6 +43,27 @@ body {
     margin: 0 200 0 200;
 }
 
+
+.facebook {
+	height: 50px;
+	width: 50px;
+	border-radius:15px;
+}
+
+.Instagram {
+	height: 50px;
+	width: 50px;
+	border-radius:15px;
+	
+}
+
+.youtube {
+	height: 50px;
+	width: 50px;
+	border-radius:15px;
+	
+}
+
 /*Width of cards and containers*/
 @media screen and (max-width: 1000px) {
 body.sm-full {
